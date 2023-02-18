@@ -120,9 +120,17 @@ img {
   text-decoration: none;
 }
 .hero {
-  background-color: var(--grey-bg-color);
+  margin: 0 auto;
   text-align: center;
   padding: 188px 0;
+  background-image: linear-gradient
+      (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/peopleoffice\ 1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--mains-bg-color);
 }
 
 .hero-title {
