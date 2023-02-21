@@ -304,7 +304,7 @@ img {
   background-color: var(--accent-bg-color);
   border-radius: 50%;
 }
-.socials-link: hover {
+.socials-link:hover {
   background-color: var(--accent-bg-color);
 }
 
