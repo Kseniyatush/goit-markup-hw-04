@@ -295,8 +295,9 @@ img {
   border-radius: 50%;
   background: #4d5ae5;
 }
-.socials-link:hover {
-  background-color: var(--accent-bg-color);
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #404bbf;
 }
 
 .footer-section {
@@ -444,7 +445,7 @@ ul {
   background: #2e2f42;
 }
 .socials-tittle {
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-bg-color);
@@ -453,11 +454,6 @@ ul {
 }
 .socials-list1 {
   display: flex;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
 }
 .socials-link1 {
   display: flex;
@@ -469,6 +465,11 @@ ul {
   justify-content: center;
   text-decoration: underline;
 }
-.footer-container {
+.socials-link1:hover,
+.socials-link1:focus {
+  background-color: #31d0aa;
+}
+
+.container-footer {
   display: flex;
 }
