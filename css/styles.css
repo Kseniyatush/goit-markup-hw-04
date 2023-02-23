@@ -382,6 +382,12 @@ ul {
 .about-portfolio {
   flex-basis: calc((100% - 2 * 24px) / 3);
 }
+.portfolio-link:hover .portfolio-context,
+.portfolio-link:focus .portfolio-context {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .customers-title {
   font-size: 36px;
   line-height: 1.11;
@@ -408,17 +414,18 @@ ul {
   height: 100%;
   border: 1px solid var(--customers-color);
   border-radius: 4px;
+  fill: var(--customers-color);
 }
-.adress-customers :hover {
-  fill: var(--accent-color);
-  border: 1px solid var(--customers-color);
-  border-radius: 4px;
+.adress-customers:hover,
+.adress-customers:focus {
+  fill: #404bbf;
+  border-color: #404bbf;
 }
 
 .icons-customers {
-  fill: var(--customers-color);
   height: 56px;
   width: 104px;
+  fill: currentColor;
 }
 .customers-list {
   font-style: normal;
@@ -442,7 +449,6 @@ ul {
   width: 24px;
   height: 24px;
   fill: #f4f4fd;
-  background: #2e2f42;
 }
 .socials-tittle {
   font-weight: 500;
@@ -454,6 +460,7 @@ ul {
 }
 .socials-list1 {
   display: flex;
+  gap: 24px;
 }
 .socials-link1 {
   display: flex;
