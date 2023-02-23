@@ -286,6 +286,7 @@ img {
   width: 40px;
   height: 40px;
 }
+
 .socials-link {
   display: flex;
   align-items: center;
@@ -307,6 +308,7 @@ img {
 }
 .footer-title {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .description-footer {
@@ -316,7 +318,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--mains-color);
 }
-
+.socials-tittle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
 .logo-footer {
   font-family: 'Raleway';
   font-weight: 800;
@@ -414,11 +424,11 @@ ul {
   height: 100%;
   border: 1px solid var(--customers-color);
   border-radius: 4px;
-  fill: var(--customers-color);
+  color: var(--customers-color);
 }
 .adress-customers:hover,
 .adress-customers:focus {
-  fill: #404bbf;
+  color: #404bbf;
   border-color: #404bbf;
 }
 
