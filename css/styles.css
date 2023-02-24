@@ -53,6 +53,11 @@ img {
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
+.header1{
+ border-bottom: 1px solid #E7E9FC;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+}
 .page-header-container {
   display: flex;
   align-items: center;
@@ -181,7 +186,7 @@ img {
   width: 264px;
   height: 112px;
   align-items: center;
-  margin: 8px;
+  margin bottom: 8px;
 }
 
 .description {
@@ -387,6 +392,8 @@ ul {
 .button-portfolio:focus {
   background-color: #404bbf;
   color: var(--main-color);
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+ 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .about-portfolio {
@@ -397,7 +404,9 @@ ul {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
+.portfolio-link{
+  text-decoration: none;
+}
 .customers-title {
   font-size: 36px;
   line-height: 1.11;
@@ -408,8 +417,8 @@ ul {
   padding-bottom: 72px;
 }
 .sections-customers {
-  padding-bottom: 120px;
-  padding-top: 130px;
+ margin-bottom : 120px;
+ margin-top: 130px;
 }
 
 .customer {
